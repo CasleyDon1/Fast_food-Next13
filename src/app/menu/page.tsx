@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { menu } from "./data";
+import { menu } from "@/app/data";
 
 const MenuPage = () => {
   return (
