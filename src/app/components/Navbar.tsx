@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
       <div className="text-xl md:font-bold flex-1 md:text-center">
         <Link href="/">
-	  Don's Spot
+	  Dons Spot
 	</Link>
       </div>
       <div className="md:hidden">
