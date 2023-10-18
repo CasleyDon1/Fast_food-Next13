@@ -7,7 +7,7 @@ const Featured = () => {
       <div className="w-max flex">
 	{/* Single Item */}
 	{featuredProducts.map(item =>(
-	<div key={item.id} className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-fuchsia-50 transition-all duration-300 md:w-[50vw] lg:w-[33vh]">
+	<div key={item.id} className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-fuchsia-50 transition-all duration-300 md:w-[50vw] lg:w-[33vh] lg:h-[90vh]">
 	  {/* Image Container */}
 	  {item.img && (
 	    <div className="relative flex-1 w-full hover:rotate-[60deg] transition-all duration-500">
